@@ -20,3 +20,6 @@ dogPairs => {"Wiggley F. Buckley", "Diesel"}
 
 
 // Arrow
+buttonElement.addEventListener('click', function(event){
+  alert('element clicked!')
+})
