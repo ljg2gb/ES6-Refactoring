@@ -10,8 +10,12 @@ const dog2 = {firstName: "Ginny", breed: "American Fox Hound"}
 
 
 // Destructuring
+//desctrure the following object into the object below
+const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", favoriteActivity:"Dog Parking", leastFavoriteActivity:"riding in the car", bFF:"Diesel", }
 
 
+//result
+dogPairs => {"Wiggley F. Buckley", "Diesel"}
 
 
 
