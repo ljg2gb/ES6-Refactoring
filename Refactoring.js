@@ -1,5 +1,5 @@
 // Refactor the Code Below Using the ES6 Method Listed
-// Additionally, Prepare an Explanation for Why We Would
+// Additionally, Prepare an Explanation for Why We Would or Wouldn't
 // Would Want to Refactor Using that Method
 
 // Spread
