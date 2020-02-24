@@ -9,16 +9,33 @@ document.addEventListener('DOMContentLoaded', ()=>{
 const dog1 = {firstName: "Buckley", breed: "Lab Mix"}
 const dog2 = {firstName: "Ginny", breed: "American Fox Hound"}
 
-//solution
-const dogs = {...dog1, ...dog2}
+
+const newObject = {...dog1, ...dog2}
+// result
+console.log(newObject)
+
+
 
 // Destructuring
 //desctrure the following object to produce the result below
 //consider first how you would do it without destructuring
 const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", favoriteActivity:"Dog Parking", leastFavoriteActivity:"riding in the car", bFF:"Diesel", }
 
-//solution
-const {fullName, bFF} = dogPairs
+const {fullName, bFF} = buckley
 
 //result
-console.log(fullName) = "Wiggley F. Buckley"
+console.log(fullName)
+
+
+
+//Object.assign()
+//use Object.assign() to non-destructively combine the cats object and your newObjectup above into a "pets" object
+const cats = {fullName:'Pepper', breed:'Persian'}
+
+const pets = Object.assign({},newObject, cats)
+
+
+//result
+console.log(pets)
+
+})
