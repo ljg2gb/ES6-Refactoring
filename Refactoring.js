@@ -2,6 +2,7 @@
 // Additionally, Prepare an Explanation for Why We Would
 // Would or Wouldn't Want to Refactor Using that Method
 
+
 // Spread
 //combine the follow objects into an new object using the spread operator
 const dog1 = {firstName: "Buckley", breed: "Lab Mix"}
@@ -20,11 +21,3 @@ const {fullName, bFF} = dogPairs
 //result
 dogPairs => {"Wiggley F. Buckley", "Diesel"}
 
-
-// Arrow
-buttonElement.addEventListener('click', function(event){
-  alert('element clicked!')
-})
-
-//solution
-buttonElement.addEventListener('click', ()=> alert('element clicked!'))
