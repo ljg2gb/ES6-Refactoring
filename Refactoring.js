@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
 //combine the follow objects into a new object using the spread operator
 const dogInfo1 = {firstName: "Buckley", breed: "Lab Mix"}
 const dogInfo2 = {birthday: "May 20, 2017", favoriteActivity: "Rolling in the dirt"}
+const dogs = {...dogInfo1, ...dogInfo2}
+
+console.log(dogs)
 
 
 
@@ -20,6 +23,9 @@ const dogInfo2 = {birthday: "May 20, 2017", favoriteActivity: "Rolling in the di
 //desctrure the following object to produce the result below
 //consider first how you would do it without destructuring
 const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", favoriteActivity:"Rolling in the dirt", leastFavoriteActivity:"riding in the car", bFF:"Diesel", }
+const forever = `${buckley.fullName} and ${buckley.bFF} forever`
+
+console.log(forever)
 
 
 
@@ -33,9 +39,13 @@ const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", f
 //Object.assign()
 //use Object.assign() to non-destructively combine the cats object and your newObjectup above into a "pets" object
 const cats = {fullName:'Pepper', breed:'Persian'}
+const pets = Object.assign(cats, dogs)
+
+console.log(pets)
 
 
 
 
 //result
 
+})
