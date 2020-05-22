@@ -12,19 +12,21 @@ const dogInfo2 = {birthday: "May 20, 2017", favoriteActivity: "Rolling in the di
 
 
 // result
-console.log(newObject)
+// console.log(newObject)
 
 
 
 // Destructuring
 //desctrure the following object to produce the result below
 //consider first how you would do it without destructuring
-const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", favoriteActivity:"Dog Parking", leastFavoriteActivity:"riding in the car", bFF:"Diesel", }
+const buckley = {fullName: "Wiggley F. Buckley", favoriteFood: "Peanutbutter", favoriteActivity:"Rolling in the dirt", leastFavoriteActivity:"riding in the car", bFF:"Diesel", }
+
 
 
 
 //result
-console.log(fullName) = "Wiggley F. Buckley"
+//console.log will produce "Wiggley F. Buckley and Diesel forever"
+
 
 
 
@@ -36,6 +38,4 @@ const cats = {fullName:'Pepper', breed:'Persian'}
 
 
 //result
-console.log(pets) = {firstName: "Ginny", breed: "American Fox Hound", fullName:'Pepper', breed:'Persian'}
 
-})
