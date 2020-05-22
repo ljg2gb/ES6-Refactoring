@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 
 // Spread
-//combine the follow objects into an new object using the spread operator
-const dog1 = {firstName: "Buckley", breed: "Lab Mix"}
-const dog2 = {firstName: "Ginny", breed: "American Fox Hound"}
+//combine the follow objects into a new object using the spread operator
+const dogInfo1 = {firstName: "Buckley", breed: "Lab Mix"}
+const dogInfo2 = {birthday: "May 20, 2017", favoriteActivity: "Rolling in the dirt"}
 
 
 
 // result
-console.log(newObject) = {firstName: "Ginny", breed: "American Fox Hound"}
+console.log(newObject)
 
 
 
